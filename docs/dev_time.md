@@ -9,19 +9,21 @@ Activities:
 - Set up GitHub Projects Kanban board with columns (Backlog, Next, In Progress, Blocked, Done).
 - Created V1-v3 tasks: 
 Notes:
-- TBD
+- N/A
 
 ------------------------------------------------------
 
 Day 2 - 12/3/2025
-Focus: 
-Total Time: TBD
+Focus: Created flask API and Dockerfile
+Total Time: 1.5 Hours
 
 Activities:
-- 
+- Created flask API
+- Created Dockerfile
+- Created fetch_weather.py to fetch weather data (called by flask API)
 
 Notes:
-- TBD
+- Can only make 10 free API calls a day
 
 ------------------------------------------------------
 
