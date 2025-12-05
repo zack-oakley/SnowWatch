@@ -1,11 +1,12 @@
 # Zack Oakley
 # 12/3/2025
 # Flask API to retrieve weather data from Open-Meteo
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template 
 from src.fetch_weather import fetch_mountain_weather
 
 app = Flask(__name__)
 
+# API route to return JSON of weather data from Open-Meteo
 @app.get("/weather")
 def get_weather():
     try:

@@ -14,6 +14,7 @@ WEATHER_URL = (
     "&precipitation_unit=inch"
 )
 
+# Fetch Crystal mountain weather information
 def fetch_mountain_weather():
     response = requests.get(WEATHER_URL, timeout=10)
     response.raise_for_status()

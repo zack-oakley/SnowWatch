@@ -5,10 +5,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY backend ./backend
+COPY frontend ./frontend
 
-ENV PYTHONPATH="/app"
+ENV PYTHONPATH="/app/backend"
 
 EXPOSE 8010
 
-CMD ["python", "src/app.py"]
+CMD ["python", "backend/src/app.py"]

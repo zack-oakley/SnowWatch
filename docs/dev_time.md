@@ -27,15 +27,15 @@ Notes:
 
 ------------------------------------------------------
 
-Day 3 - 
-Focus: 
-Total Time: TBD
+Day 3 - 12/5/2025
+Focus: Quick test frontend to visualize data
+Total Time: 1.5 Hours
 
 Activities:
-- 
+- Created folder scratch_frontend with an index.html page, main.js and styles.css file to visualize the API data 
 
 Notes:
-- TBD
+- Data successfully visualized. Next step is to implement a React frontend
 
 ------------------------------------------------------
 
