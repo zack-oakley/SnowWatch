@@ -11,7 +11,6 @@ WEATHER_URL = (
     "&forecast_days=7"
     "&wind_speed_unit=mph"
     "&temperature_unit=fahrenheit"
-    "&precipitation_unit=inch"
 )
 
 # Fetch Crystal mountain weather information

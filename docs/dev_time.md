@@ -39,15 +39,23 @@ Notes:
 
 ------------------------------------------------------
 
-Day 4 - 
-Focus: 
-Total Time: TBD
+Day 4 - 12/17/2-25
+Focus: Frontend setup & backend integration (React + Vite)
+Total Time: 1.5 Hours
 
 Activities:
-- 
+- Initialized React + TypeScript frontend using Vite
+- Established frontend folder structure
+- Implemented api/snowwatch.ts as a frontend API client to call the Flask backend
+- Built initial App.tsx with
+    - data fetching via useEffect
+    - loading and error states
+    - temporary JSON rendering for validation
+- Configured vite.config.ts to proxy /weather requests to the Flask backend (localhost:8010), eliminating CORS issues during local development
 
 Notes:
-- TBD
+- End-to-end data flow verified: React (Vite) → Flask API → Open-Meteo
+- Accessing http://localhost:5173 now successfully displays live JSON weather data when both the backend and Vite dev server are running
 
 ------------------------------------------------------
 
